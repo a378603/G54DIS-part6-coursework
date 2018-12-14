@@ -1,0 +1,149 @@
+body {
+    background-image: url("48.png");
+   
+    background-size:150%;
+  }
+
+
+
+div.words{
+  position: absolute;
+  top:14%;
+  width: 100%
+}
+
+.word{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+div.logo{
+  position: relative;
+}
+
+
+
+div.card {
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color:white;
+}
+div.container1 {
+  padding: 4%;
+}
+
+
+
+div.polaroid1 {
+  width: 26%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  position: absolute;
+  left: 4.5%;
+  top: 25%;
+}
+  
+div.polaroid2 {
+  width: 26%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  position: absolute;
+  left: 36.3%;
+  top: 25%;
+}
+
+div.polaroid3 {
+  width: 26%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  position: absolute;
+  right: 5.5%;
+  top: 25%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+div.polaroid1:hover{  
+  background-color:rgb(228, 222, 222);
+}
+
+div.polaroid2:hover{  
+  background-color:rgb(228, 222, 222);
+}
+
+div.polaroid3:hover{  
+  background-color:rgb(228, 222, 222);
+}
+
+ .user{
+    position: absolute;
+    top: 5.5%;
+    left: 40%;
+    outline: none;
+    text-decoration: none;
+    font-size: 200%;
+    line-height: 1;
+    color: #7a0099;
+    display: inline-block;
+    font-family:Verdana;
+ }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FF8888;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 19px;
+    padding: 1%;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    right: 5%;
+    top: 3.5%;
+    font-family:Verdana;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+  
